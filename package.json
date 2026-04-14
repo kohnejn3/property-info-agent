@@ -1,0 +1,44 @@
+{
+  "name": "property-info-agent",
+  "version": "0.1.0",
+  "description": "Schema-validated agent that retrieves structured U.S. real-estate facts from a street address using the OpenAI Agents SDK and web search.",
+  "type": "module",
+  "main": "src/retrievePropertyInfo.ts",
+  "scripts": {
+    "retrieve": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "openai",
+    "openai-agents",
+    "ai-agent",
+    "zod",
+    "real-estate",
+    "structured-output",
+    "typescript",
+    "cli",
+    "web-search",
+    "property-data"
+  ],
+  "author": "Nick Kohne",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohnejn3/property-info-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kohnejn3/property-info-agent/issues"
+  },
+  "homepage": "https://github.com/kohnejn3/property-info-agent#readme",
+  "dependencies": {
+    "@openai/agents": "^0.5.2",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
